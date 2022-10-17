@@ -1,8 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 
 export default function Home() {
@@ -26,15 +30,62 @@ export default function Home() {
             <div className='text-center p-10'>
               <h2 className='text-5xl py-2 text-teal-600 font-medium'>Pablo Escales</h2>
               <h3 className='text-2xl py-2'>Frontend Developer</h3>
-              <p className='text-md py-5 leading-8 text-gray-800'>Creativity driven developer, passionate about technology and innovation. I enjoy challenges and seek a creative approach to problem solving.</p>
+              <p className='text-md py-5 leading-8 text-gray-800'>
+                Creativity driven developer, passionate about technology and innovation. I enjoy challenges and seek a creative approach to problem solving.
+              </p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className='relative bg=gradient-to-b'>
-              <Image src={deved} />
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+              <Image src={deved} layout='fill' objectFit='cover'/>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h3 className='text-3xl py-1'>Services I offer</h3>
+              <p className='text-md py-2 leading-8 text-gray-800'>
+                <span className='text-teal-500'> agencies </span>
+                consulted for<span className='text-teal-500'> startups </span> and collaborated with talented people.
+              </p>
+            </div>
+            <div>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+                <Image src={design} width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+                <p className='py-2'>
+                  Creating elegant designs suited for your need designs theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Desigin tools I use</h4>
+                <p className='text-gray-800 py-1'>Figma</p>
+                <p className='text-gray-800 py-1'>Photoshop</p>
+                <p className='text-gray-800 py-1'>Ilustrator</p>
+              </div>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+                <Image src={code} width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+                <p className='py-2'>
+                  Creating elegant designs suited for your need designs theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Desigin tools I use</h4>
+                <p className='text-gray-800 py-1'>Figma</p>
+                <p className='text-gray-800 py-1'>Photoshop</p>
+                <p className='text-gray-800 py-1'>Ilustrator</p>
+              </div>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+                <Image src={consulting} width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+                <p className='py-2'>
+                  Creating elegant designs suited for your need designs theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Desigin tools I use</h4>
+                <p className='text-gray-800 py-1'>Figma</p>
+                <p className='text-gray-800 py-1'>Photoshop</p>
+                <p className='text-gray-800 py-1'>Ilustrator</p>
+              </div>
             </div>
           </section>
         </main>
