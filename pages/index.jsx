@@ -7,7 +7,12 @@ import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-
+import web1  from '../public/web1.png';
+import web2  from '../public/web2.png';
+import web3  from '../public/web3.png';
+import web4  from '../public/web4.png';
+import web5  from '../public/web5.png';
+import web6  from '../public/web6.png';
 
 export default function Home() {
   return (
@@ -18,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <main className='bg-white px-10'>
+        <main className='bg-white px-10 md:px-20 lg:px-40'>
           <section className='min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl font-burtons'>developedyed</h1>
@@ -28,9 +33,9 @@ export default function Home() {
               </ul>
             </nav>
             <div className='text-center p-10'>
-              <h2 className='text-5xl py-2 text-teal-600 font-medium'>Pablo Escales</h2>
-              <h3 className='text-2xl py-2'>Frontend Developer</h3>
-              <p className='text-md py-5 leading-8 text-gray-800'>
+              <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Pablo Escales</h2>
+              <h3 className='text-2xl py-2 md:text-3xl'>Frontend Developer</h3>
+              <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
                 Creativity driven developer, passionate about technology and innovation. I enjoy challenges and seek a creative approach to problem solving.
               </p>
             </div>
@@ -88,6 +93,33 @@ export default function Home() {
               </div>
             </div>
           </section>
+            <section>
+              <div>
+                <h3 className='text-3xl py-1'>Portfolio</h3>
+                <p className='text-md py-2 leading-8 text-gray-800'>
+                  <span className='text-teal-500'> agencies </span>
+                  consulted for<span className='text-teal-500'> startups </span> and collaborated with talented people.
+                </p>
+              </div>
+              <div >
+                <Image src={web1} width={400} height={200} />
+              </div>
+              <div >
+                <Image src={web2} width={400} height={200} />
+              </div>
+              <div >
+                <Image src={web3} width={400} height={200} />
+              </div>
+              <div >
+                <Image src={web6} width={400} height={200} />
+              </div>
+              <div >
+                <Image src={web5} width={400} height={200} />
+              </div>
+              <div >
+                <Image src={web4} width={400} height={200} />
+              </div>
+            </section>
         </main>
       </div>
   );
