@@ -28,7 +28,12 @@ export default function Home() {
         <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
           <section className='min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
-              <h1 className='text-xl font-burtons dark:text-gray-400'>Work In Progress</h1>
+              <motion.h1 
+                initial={{ x: -100, opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1.5 }}
+                className='text-xl font-burtons dark:text-gray-400'>Work In Progress
+              </motion.h1>
               <ul className='flex items-center'>
                 <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
                 <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>Resume</a></li>
