@@ -1,16 +1,16 @@
-import React from 'react';
-import { motion } from 'frame-motion';
+// import React from 'react';
+// import { motion } from 'frame-motion';
 
-type Props = {}
+// type Props = {}
 
-function BackgroundCircles{(): Props} {
-    return (
-        <div>
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-        </div>    
-    )
-}
+// function BackgroundCircles((): Props) {
+//     return (
+//         <div>
+//             <div />
+//             <div />
+//             <div />
+//             <div />
+//             <div />
+//         </div>    
+//     )
+// }
