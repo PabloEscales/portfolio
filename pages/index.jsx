@@ -15,6 +15,8 @@ import web5  from '../public/web5.png';
 import web6  from '../public/web6.png';
 import { useState } from 'react';
 import { motion } from "framer-motion";
+import Hero from './components/Hero';
+import BackgroundCircles from './components/BackgroundCircles';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -29,16 +31,48 @@ export default function Home() {
           <section className='min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
               <motion.h1 
-                initial={{ x: -100, opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1.5 }}
-                className='text-xl font-burtons dark:text-gray-400'>Work In Progress
+                initial={{
+                  x: -100,
+                  opacity: 0,
+                  scale: 0.5
+                }}
+                animate={{
+                  x: 0,
+                  opacity: 1,
+                  scale: 1 
+                }}
+                transition={{
+                  duration: 1.5
+                }}
+                className='text-xl font-burtons dark:text-gray-400'
+              >
+                Work In Progress
               </motion.h1>
-              <ul className='flex items-center'>
-                <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
-                <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>Resume</a></li>
-              </ul>
+              <motion.div
+                initial={{ 
+                  x: 100, 
+                  opacity: 0, 
+                  scale: 0.5 
+                }}
+                animate={{ 
+                  x: 0,
+                  opacity: 1,
+                  scale: 1
+                }}
+                transition={{ 
+                  duration: 1.5
+                }}
+              >
+                <ul className='flex items-center'>
+                  <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
+                  <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>Resume</a></li>
+                </ul>
+              </motion.div>
             </nav>
+            
+            {/* Hero */}
+            <Hero />
+
             <div className='text-center p-10'>
               <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Pablo M. Escales</h2>
               <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-300'>Frontend Developer</h3>
