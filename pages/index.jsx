@@ -16,7 +16,6 @@ import web6  from '../public/web6.png';
 import { useState } from 'react';
 import { motion } from "framer-motion";
 import Hero from './components/Hero';
-import BackgroundCircles from './components/BackgroundCircles';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,7 +29,7 @@ export default function Home() {
         <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
           <section className='min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
-              <motion.h1 
+              <motion.h1
                 initial={{
                   x: -100,
                   opacity: 0,
@@ -39,7 +38,7 @@ export default function Home() {
                 animate={{
                   x: 0,
                   opacity: 1,
-                  scale: 1 
+                  scale: 1
                 }}
                 transition={{
                   duration: 1.5
@@ -49,17 +48,17 @@ export default function Home() {
                 Work In Progress
               </motion.h1>
               <motion.div
-                initial={{ 
-                  x: 100, 
-                  opacity: 0, 
-                  scale: 0.5 
+                initial={{
+                  x: 100,
+                  opacity: 0,
+                  scale: 0.5
                 }}
-                animate={{ 
+                animate={{
                   x: 0,
                   opacity: 1,
                   scale: 1
                 }}
-                transition={{ 
+                transition={{
                   duration: 1.5
                 }}
               >
@@ -69,7 +68,7 @@ export default function Home() {
                 </ul>
               </motion.div>
             </nav>
-            
+
             {/* Hero */}
             <Hero />
 
@@ -139,7 +138,7 @@ export default function Home() {
                 <h3 className='text-3xl py-1 dark:text-gray-300'>Portfolio</h3>
                 <h2 className='text-2xl py-1 text-teal-500'>Happy Paw </h2>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-                  
+
                   It's a <span className='text-teal-500'>P2P</span> platform that allows people to connect between people available to take care of your pets 😃.
                   <span className='text-teal-500'> happypaw.cloud</span> 💻
                 </p>
@@ -161,7 +160,7 @@ export default function Home() {
                 <div>
                 <h2 className='text-2xl py-1 text-teal-500'>VansRent</h2>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-                  
+
                 Welcome to VansRent 🚐. It's a <span className='text-teal-500'>P2P </span> platform that allows people to connect to rent their vans.
                 <span className='text-teal-500'> vansrent.herokuapp.com</span> 💻
                 </p>

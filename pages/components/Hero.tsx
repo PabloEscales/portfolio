@@ -16,8 +16,6 @@ export default function Hero({}: Props) {
 
   return (
     <div>
-      {/* <BackgroundCircles /> */}
-
       <span>{text}</span>
       <Cursor cursorColor='#F7AB0A' />
     </div>
