@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <h2 className='text-xl font-burtons dark:text-gray-500'>Jr. Frontend Developer</h2>
+      <h2 className='text-xl font-burtons dark:text-gray-500'>Frontend Developer</h2>
       <h1>
         <span className='text-xl font-burtons dark:text-gray-400'>{text}</span>
         <Cursor cursorColor='#F7AB0A' />
