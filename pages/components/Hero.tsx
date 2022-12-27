@@ -22,7 +22,7 @@ export default function Hero({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src='https://media-exp1.licdn.com/dms/image/D4E03AQEhxd1sIBQHcA/profile-displayphoto-shrink_200_200/0/1665647070561?e=1676505600&v=beta&t=oXIcSRF8jCEwxalObDD-mgZge0bBBWEqVCtF-QrkHB8'
+        src='https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png'
         alt=''
       />
       <div className='z-20'>
