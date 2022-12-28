@@ -17,6 +17,7 @@ import { motion } from "framer-motion";
 import Hero from './components/Hero';
 import About from './components/About';
 import WorkExperience from './components/WorkExperience';
+import Skills from './components/Skills';
 
 
 
@@ -79,15 +80,21 @@ export default function Home() {
               <About />
             </section>
 
-          {/* Experience */}
-              <section id='experience' className='snap-center dark:text-gray-400'>
-                <WorkExperience />
-              </section>
+
+            <section id='experience' className='snap-center dark:text-gray-400'>
+              <WorkExperience />
+            </section>
+
+            <section id='skills' className='snap-start dark:text-gray-400'>
+                <Skills />
+            </section>
 
 
-          {/* Skills */}
-          {/* Projects */}
-          {/* Contact Me */}
+
+            {/* Projects */}
+            {/* Contact Me */}
+
+
 
 
 
@@ -99,69 +106,12 @@ export default function Home() {
 
         </section>
 
-        <section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-gray-400'>Skills and Techs</h3>
-            {/* <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-              <span className='text-teal-500'> Agencies </span>
-              consulted for<span className='text-teal-500'> startups </span> and collaborated with talented people.
-            </p> */}
+
+        {/* <section className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='basis-1/3 flex-1'>
+            <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
           </div>
-          <div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200'>
-              <Image src={design} width={100} height={100}/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Innovation desings as a goal</h3>
-              <p className='py-2'>
-                Creating elegant designs suited for your need designs theory.
-              </p>
-              <h4 className='py-4 text-teal-600'>Desigin and techs I use:</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>React / Next.js</p>
-              <p className='text-gray-800 py-1'>JavaScript</p>
-              <p className='text-gray-800 py-1'>Ruby on Rails</p>
-
-            </div>
-          </div>
-        </section>
-          <section>
-            <div>
-              <h3 className='text-3xl py-1 dark:text-gray-300'>Portfolio</h3>
-              <h2 className='text-2xl py-1 text-teal-500'>Happy Paw </h2>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-
-                It's a <span className='text-teal-500'>P2P</span> platform that allows people to connect between people available to take care of your pets 😃.
-                <span className='text-teal-500'> happypaw.cloud</span> 💻
-              </p>
-            </div>
-            <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/3 flex-1'>
-                <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-              </div>
-              <div className='basis-1/3 flex-1'>
-                <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'70%'} layout='responsive' />
-              </div>
-              <div className='basis-1/3 flex-1'>
-                <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-              </div>
-              <div className='basis-1/3 flex-1'>
-                <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-              </div>
-              <div className='basis-1/3 flex-1'>
-              <div>
-              <h2 className='text-2xl py-1 text-teal-500'>VansRent</h2>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-
-              Welcome to VansRent 🚐. It's a <span className='text-teal-500'>P2P </span> platform that allows people to connect to rent their vans.
-              <span className='text-teal-500'> vansrent.herokuapp.com</span> 💻
-              </p>
-            </div>
-                <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-              </div>
-              <div className='basis-1/3 flex-1'>
-                <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-              </div>
-            </div>
-          </section>
+        </section> */}
       </main>
     </div>
   );
