@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard'
 
 type Props = {}
-
+ 
 function WorkExperience({}: Props) {
   return (
     <motion.div
@@ -13,7 +13,7 @@ function WorkExperience({}: Props) {
         Experience
       </h3>
 
-      <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+      <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />

@@ -20,7 +20,7 @@ export default function ExperienceCard({}: Props) {
       />
 
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-ligth'>FRONTEND WEB DEVELOPER</h4>
+        <h4 className='text-4xl font-ligth'>FRONTEND DEVELOPER</h4>
         <p className='font-bold text-2xl mt-1'>LEJKA</p>
         <div className='flex space-x-2 my-2'>
           <img
@@ -39,7 +39,9 @@ export default function ExperienceCard({}: Props) {
             alt=''
           />
         </div>
-        <p className='uppercase py-5 text-gray-300'>Started work... - Ended ...</p>
+        <p className='uppercase py-5 text-gray-300'>
+          Started work... - Ended ...
+        </p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg'>
           <li>Summary points</li>
