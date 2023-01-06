@@ -6,12 +6,7 @@ import Image from 'next/image';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1  from '../public/web1.png';
-import web2  from '../public/web2.png';
-import web3  from '../public/web3.png';
-import web4  from '../public/web4.png';
-import web5  from '../public/web5.png';
-import web6  from '../public/web6.png';
+// import web1  from '../public/web1.png';
 import { useState } from 'react';
 import { motion } from "framer-motion";
 import Hero from './components/Hero';
@@ -20,6 +15,8 @@ import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
+import Link from 'next/link';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,9 +29,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[rgb(36,36,36)]'>
-        <section id="hero" className='snap-start'>
-          <nav className='py-10 mb-12 flex justify-between'>
-            <motion.img
+          <nav className='sticky top-0 p-5 flex justify-between z-20 max-w-7xl mx-auto xl:items-center'>
+            <motion.div
               initial={{
                 x: -100,
                 opacity: 0,
@@ -47,36 +43,54 @@ export default function Home() {
               }}
               transition={{
                 duration: 1.5
-              }}
-              className='text-xl font-burtons dark:text-gray-400 h-16 w-16' // Work In Progress
-              src='https://www.iconpacks.net/icons/1/free-icon-rocket-1206.png'
-              alt=''>
-            </motion.img>
-            <motion.div
-              initial={{
-                x: 100,
-                opacity: 0,
-                scale: 0.5
-              }}
-              animate={{
-                x: 0,
-                opacity: 1,
-                scale: 1
-              }}
-              transition={{
-                duration: 1.5
-              }}
-            >
-              <ul className='flex items-center'>
-                <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
-                <li>
-                  <a className='bg-yellow-500 text-black px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>
-                    Resume
-                  </a>
-                </li>
-              </ul>
+              }}>
+              <SocialIcon
+               url="https://linkedin.com/jaketrent"
+               fgColor='gray'
+               bgColor='transparent'
+              />
+              <SocialIcon
+                url="https://github.com/jaketrent"
+                fgColor='gray'
+                bgColor='transparent'
+              />
+              <SocialIcon
+                url="https://facebook.com/jaketrent"
+                fgColor='gray'
+                bgColor='transparent'
+              />
+
             </motion.div>
+
+
+            {/* <Link href='#contact'> */}
+              <motion.div
+                initial={{
+                  x: 100,
+                  opacity: 0,
+                  scale: 0.5
+                }}
+                animate={{
+                  x: 0,
+                  opacity: 1,
+                  scale: 1
+                }}
+                transition={{
+                  duration: 1.5
+                }}
+              >
+                <ul className='flex items-center'>
+                  <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
+                  <li>
+                    <a className='bg-yellow-500/80 text-black px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>
+                      ✉️
+                    </a>
+                  </li>
+                </ul>
+              </motion.div>
+            {/* </Link> */}
           </nav>
+        <section id="hero" className='snap-start dark:text-gray-400'>
             <Hero />
         </section>
 
@@ -100,19 +114,17 @@ export default function Home() {
           <ContactMe />
         </section>
 
-
-        {/* <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-600'>
-          <AiFillTwitterCircle />
-          <AiFillLinkedin />
-          <AiFillYoutube />
-        </div> */}
-
-
-      {/* <section className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-        <div className='basis-1/3 flex-1'>
-          <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
-        </div>
-      // </section> */}
+        <Link href='#hero'>
+          <footer className='sticky bottom-5 cursor-pointer'>
+            <div className='flex items-center justify-center'>
+              <img
+                className='h-10 w-auto rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+                src='https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png'
+                alt=''
+              />
+            </div>
+          </footer>
+        </Link>
       </main>
     </div>
   );
