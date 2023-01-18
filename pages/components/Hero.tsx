@@ -48,7 +48,6 @@ export default function Hero({}: Props) {
             <button className='heroButton'>Projects</button>
           </Link>
         </div>
-
       </div>
     </div>
   )

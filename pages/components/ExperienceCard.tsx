@@ -23,16 +23,19 @@ export default function ExperienceCard({}: Props) {
         <h4 className='text-4xl font-ligth'>FRONTEND DEVELOPER</h4>
         <p className='font-bold text-2xl mt-1'>LEJKA</p>
         <div className='flex space-x-2 my-2'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className='h-10 w-10 rounded-full'
             src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
             alt=''
           />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className='h-10 w-10 rounded-full'
             src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
             alt=''
           />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className='h-10 w-10 rounded-full'
             src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
