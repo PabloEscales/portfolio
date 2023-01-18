@@ -117,11 +117,11 @@ export default function Home() {
         <Link href='#hero'>
           <footer className='sticky bottom-5 cursor-pointer'>
             <div className='flex items-center justify-center'>
-              <img
+              {/* <img
                 className='h-10 w-auto rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
                 src='https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png'
                 alt=''
-              />
+              /> */}
             </div>
           </footer>
         </Link>
