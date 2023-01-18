@@ -20,11 +20,7 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-0 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src='https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png'
-        alt=''
-      />
+  
       <div className='z-20'>
         <h2 className='text-sm uppercase text--gray-500 pb-2 tracking-[15px] dark:text-gray-400'>
           Frontend Developer
