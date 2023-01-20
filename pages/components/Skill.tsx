@@ -5,12 +5,12 @@ type Props = {
   directionalLeft?: boolean;
 };
 
-function Skill({ directionaLeft }: Props) {
+function Skill({ }: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
       <motion.img
         initial={{
-          x: directionaLeft ? -600 : 600,
+          x: 600,
           opacity: 0,
         }}
         transition={{ duration: 1 }}
