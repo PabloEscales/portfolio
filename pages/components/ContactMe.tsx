@@ -26,8 +26,8 @@ function ContactMe({}: Props) {
 
       <div className='flex flex-col space-y-10'>
         <h4 className='text-4xl font-semibold text-center mt-24'>
-          I have got just what you need.{' '}
-          <span className='decoration-[#F7AB0A]/50 underline'>Lets Talk.</span>
+          Keep in touch and{' '}
+          <span className='decoration-[#F7AB0A]/50 underline'>let's talk.</span>
         </h4>
 
         <div className='flex item-center space-x-5 justify-center'>
