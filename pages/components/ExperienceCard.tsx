@@ -20,8 +20,8 @@ export default function ExperienceCard({}: Props) {
       />
 
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-ligth'>FRONTEND DEVELOPER</h4>
-        <p className='font-bold text-2xl mt-1'>LEJKA</p>
+        <h4 className='text-4xl font-ligth'>FRONTEND WEB DEVELOPER</h4>
+        <p className='font-bold text-2xl mt-1'>LEJKA - 📍 Copenhagen, Denmark</p>
         <div className='flex space-x-2 my-2'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -43,12 +43,10 @@ export default function ExperienceCard({}: Props) {
           />
         </div>
         <p className='uppercase py-5 text-gray-300'>
-          Started work... - Ended ...
+          Start date: 08-2022
         </p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Summary points</li>
-          <li>Summary points</li>
           <li>Summary points</li>
           <li>Summary points</li>
           <li>Summary points</li>

@@ -11,7 +11,7 @@ function Projects({}: Props) {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }}
     className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Projects
       </h3>
 
@@ -35,11 +35,11 @@ function Projects({}: Props) {
                 <span className='underline decoration-[#F7AB0A]/50'>
                   Case Study {i + 1} of {projects.length}:
                 </span>{' '}
-                UPS clone
+                LEJKA new Web App
               </h4>
 
               <p className='text-lg text-center md:text-left'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores obcaecati eligendi deserunt veritatis! Eveniet ullam id, dolorem minus, tempora quisquam recusandae facere nihil, culpa molestias accusantium facilis? Fugiat, quasi explicabo!
+                Design, program and test a new interface for the administration dashboard.
               </p>
 
             </div>

@@ -10,7 +10,7 @@ export default function About({}: Props) {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }}
     className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl'>
         About
       </h3>
 
@@ -29,7 +29,7 @@ export default function About({}: Props) {
       />
 
         <div className='space-y-10 px-0 md:px-10'>
-          <h4 className='text-4xl font-semibold dark:text-gray-300'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span>{' '}
+          <h4 className='text-4xl font-semibold dark:text-gray-300'>A <span className='underline decoration-[#F7AB0A]'>brief</span>{' '}
             background
           </h4>
           <p className='text-base dark:text-gray-400'>
