@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
@@ -54,13 +55,13 @@ export default function Home() {
                 fgColor='gray'
                 bgColor='transparent'
               />
-              <h2 className='text-gray-400 y-5'>
+              <h2 className='text-[#d1a953] y-5'>
                  Work in progress ...
               </h2>
 
             </motion.div>
 
-            {/* <Link href='#contact'> */}
+            <Link href='#contact'>
               <motion.div
                 initial={{
                   x: 100,
@@ -85,7 +86,7 @@ export default function Home() {
                   </li>
                 </ul>
               </motion.div>
-            {/* </Link> */}
+            </Link>
           </nav>
         <section id="hero" className='snap-start dark:text-gray-400'>
           <Hero />
@@ -107,18 +108,18 @@ export default function Home() {
           <Projects />
         </section> */}
 
-        <section id='Contact' className='snap-start dark:text-gray-400'>
+        <section id='contact' className='snap-start dark:text-gray-400'>
           <ContactMe />
         </section>
 
         <Link href='#hero'>
-          <footer className='sticky bottom-5 cursor-pointer'>
+          <footer className='sticky bottom-5 w-full cursor-pointer'>
             <div className='flex items-center justify-center'>
-              {/* <img
-                className='h-10 w-auto rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+              <img
+                className='h-10 w-16 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
                 src='https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png'
                 alt=''
-              /> */}
+              />
             </div>
           </footer>
         </Link>
