@@ -4,7 +4,7 @@ import Skill from './Skill';
 
 type Props = {}
 
-function Skills({}: Props) {
+function Skills({ logo }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
