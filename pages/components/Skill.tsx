@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 
-// TypeScript
+// TypeScript - interface != type
 interface Props {
   logo: string;
   directionalLeft?: boolean;
