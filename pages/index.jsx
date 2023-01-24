@@ -55,10 +55,6 @@ export default function Home() {
                 fgColor='gray'
                 bgColor='transparent'
               />
-              <h2 className='text-[#d1a953] y-5'>
-                 Work in progress ...
-              </h2>
-
             </motion.div>
 
             <Link href='#contact'>
