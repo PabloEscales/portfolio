@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
+  const projects = [1, 2];
   return (
     <motion.div
     initial={{ opacity: 0 }}
@@ -33,9 +33,9 @@ function Projects({}: Props) {
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
               <h4 className='text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#F7AB0A]/50'>
-                  Case Study {i + 1} of {projects.length}:
+                LEJKA {i + 1} of {projects.length}:
                 </span>{' '}
-                LEJKA new Web App
+                New Admin Dashboard
               </h4>
 
               <p className='text-lg text-center md:text-left'>

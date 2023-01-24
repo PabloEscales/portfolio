@@ -33,9 +33,9 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-base dark:text-gray-400'>
-          Creativity driven developer, passionate about technology and innovation.
+          I'm a creativity driven developer, passionate about technology and innovation.
           I enjoy challenges and seek a creative approach to problem solving.
-          My goal is to work in a place where, I can train, grow and develop skills in order to project myself both professionally  and personally.
+          My goal is to work in a company, where I can continue training, growing and developing skills to project myself both professionally and personally.
           </p>
         </div>
     </motion.div>

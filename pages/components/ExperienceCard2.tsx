@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 type Props = {};
 
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard2({}: Props) {
   return (
-    <article className='mr-4 flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='mr-4 flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
         initial={{
           y: -100,
@@ -14,13 +14,14 @@ export default function ExperienceCard({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-32 h-32 rounded xl:w-[250px] xl:h-[100px] object-cover object-center'
-        src='https://lejka.dk/media/x4bolqg5/lejka-logo.svg'
+        className='w-32 h-32 rounded-full xl:w-[110px] xl:h-[110px] object-cover object-center'
+        src='data:image/png;base64,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'
         alt=''
       />
-      <div className='px-0 md:px-10 ml-12'>
-        <h4 className='text-4xl font-ligth'>Jr. Frontend Web Developer</h4>
-        <p className='font-bold text-2xl mt-1 ml-6'>LEJKA - Copenhagen, Denmark 📍 </p>
+
+      <div className='px-0 md:px-10'>
+        <h4 className='text-4xl font-ligth ml-8'>Jr. Full-Stack Web Developer</h4>
+        <p className='font-bold text-2xl mt-1'>HAPPY PAW - Le Wagon - Educational Project 📍</p>
         <div className='flex space-x-2 my-2 justify-center'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -54,15 +55,15 @@ export default function ExperienceCard({}: Props) {
           />
         </div>
         <p className='py-5 text-gray-400 dark:text-gray-400'>
-          Start date:  August '22
+          Start date: March '22
         </p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg '>
+        <ul className='list-disc space-y-4 ml-5 text-lg'>
           <li>
-            It's a new project, we designed, developed and tested from scratch an interface for the administration panel.
+          In a small team of 4 colleagues, we've developed an Airbnb clone from scratch. Using Ruby on Rails and JavaScript as main languages, relational database with PostgreSQL. We use Kanban methodology in Trello, API Mapbox for the geolocation, and Figma for the prototype.
           </li>
           <li>
-            Other Techs Stack: Azure DevOps · Figma Prototype
+            Other Techs Stack: Git · RSpec Testing · AJAX · Sass · Bootstrap
           </li>
         </ul>
       </div>
