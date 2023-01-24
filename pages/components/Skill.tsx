@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 interface Props {
   logo: string;
   directionalLeft?: boolean;
-  percentage: number;
+  percentage: string;
 };
 
 function Skill({ logo, directionalLeft, percentage }: Props) {
