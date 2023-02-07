@@ -20,12 +20,12 @@ function ContactMe({}: Props) {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-8 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Contact
       </h3>
 
-      <div className='flex flex-col space-y-10'>
-        <h4 className='text-4xl font-semibold text-center mt-24'>
+      <div className='flex flex-col space-y-6 md:mb-32'>
+        <h4 className='text-4xl font-semibold text-center mt-28 mb-2'>
           Keep in touch and{' '}
           <span className='decoration-[#F7AB0A]/50 underline'>let's talk.</span>
         </h4>
@@ -42,7 +42,7 @@ function ContactMe({}: Props) {
 
         <div className='flex item-center space-x-5 justify-center'>
           <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-          <p className='text-2xl'>Copenhagen - Denmark</p>
+          <p className='text-2xl mb-2'>Copenhagen - Denmark</p>
         </div>
 
         <form
@@ -79,9 +79,9 @@ function ContactMe({}: Props) {
 
           <button
             type='submit'
-            className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'
+            className='bg-orange-500 py-5 px-10 rounded-md text-black font-bold text-lg'
           >
-            Submit
+            Enviar
           </button>
         </form>
       </div>
