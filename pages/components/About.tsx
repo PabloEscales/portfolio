@@ -33,9 +33,7 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-base dark:text-gray-400'>
-          I'm a creativity driven developer, passionate about technology and innovation.
-          I enjoy challenges and seek a creative approach to problem solving.
-          My goal is to work in a company, where I can continue training, growing and developing skills to project myself both professionally and personally.
+            I'm a Full-Stack Web Developer with 12 years of experience in Real Estate Legal Management. My passion for problem solving and creative solutions inspired me to change my career path and transition from Lawyer to Web Development.
           </p>
         </div>
     </motion.div>
