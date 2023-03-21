@@ -33,8 +33,7 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-base dark:text-gray-400'>
-            I'm a Jr. Full-Stack Web Developer with 12 years of experience in Real Estate Legal Management. My passion for problem solving and creative solutions inspired me to change my career path and transition from Lawyer to Web Development.
-            Happy with this change, I've been working in my new profession for more than a year with a focus on web development.
+            I'm a Frontend Web Developer with 12 years of experience in Real Estate Legal Management. My passion for problem solving and creative solutions inspired me to change my career path and transition from Lawyer to Developer. Happy with this change, I've been working with React and Next Js for more than a year with a focus on Web Development and UX-UI.
           </p>
         </div>
     </motion.div>
