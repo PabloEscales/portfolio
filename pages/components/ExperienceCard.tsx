@@ -5,7 +5,7 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden text-gray-300'>
       <motion.img
         initial={{
           y: -100,
@@ -20,7 +20,7 @@ export default function ExperienceCard({}: Props) {
       />
       <div className='px-0 md:px-10 ml-12'>
         <h4 className='text-4xl font-ligth'>Jr. Frontend Web Developer</h4>
-        <p className='font-bold text-2xl mt-1 ml-6'>LEJKA - Copenhagen, Denmark 📍 </p>
+        <p className='font-bold text-2xl mt-1 ml-6'>LEJKA - Copenhagen, Denmark 📍</p>
         <div className='flex space-x-2 my-2 justify-center'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -59,16 +59,17 @@ export default function ExperienceCard({}: Props) {
             alt=''
           />
         </div>
-        <p className='py-5 text-gray-400 dark:text-gray-400'>
-          Start date:  August '22
+        <p className='py-5 dark:text-gray-300'>
+          Date:  August '22 - Present
         </p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg '>
+        <ul className='list-disc space-y-4 ml-5 text-lg dark:text-gray-300'>
           <li>
-            It's a new project, we designed, developed and tested from scratch an interface for the admin dashboard.
+            New project from scratch, designing with Figma, programming with React - Next Js, and testing the interface.
+            We used Azure DevOps as a server and project management.
           </li>
           <li>
-            Other Techs Stack: Azure DevOps · Figma Prototype
+            Other Techs Stack: Tailwindcss · Slack
           </li>
         </ul>
       </div>

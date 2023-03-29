@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2];
+  const projects = [1, 2, 3];
   return (
     <motion.div
     initial={{ opacity: 0 }}

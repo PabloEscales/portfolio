@@ -20,19 +20,19 @@ function ContactMe({}: Props) {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-8 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-8 uppercase tracking-[20px] text-gray-500 text-2xl dark:text-gray-300'>
         Contact
       </h3>
 
       <div className='flex flex-col space-y-6 md:mb-32'>
-        <h4 className='text-4xl font-semibold text-center mt-28 mb-2'>
+        <h4 className='text-4xl font-semibold text-center mt-28 mb-2 dark:text-gray-300'>
           Keep in touch and{' '}
           <span className='decoration-[#F7AB0A]/50 underline'>let's talk.</span>
         </h4>
 
         <div className='flex item-center space-x-5 justify-center'>
           <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-          <p className='text-2xl'>+45 50150021</p>
+          <p className='text-2xl'>+34 613355849</p>
         </div>
 
         <div className='flex item-center space-x-5 justify-center'>
@@ -81,7 +81,7 @@ function ContactMe({}: Props) {
             type='submit'
             className='bg-orange-500 py-5 px-10 rounded-md text-black font-bold text-lg'
           >
-            Enviar
+            Send
           </button>
         </form>
       </div>

@@ -10,7 +10,7 @@ export default function About({}: Props) {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }}
     className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl dark:text-gray-300'>
         About
       </h3>
 
@@ -32,8 +32,9 @@ export default function About({}: Props) {
           <h4 className='text-4xl font-semibold dark:text-gray-300'>A <span className='underline decoration-[#F7AB0A]'>brief</span>{' '}
             background
           </h4>
-          <p className='text-base dark:text-gray-400'>
-            I'm a Frontend Web Developer with 12 years of experience in Real Estate Legal Management. My passion for problem solving and creative solutions inspired me to change my career path and transition from Lawyer to Developer. Happy with this change, I've been working with React and Next Js for more than a year with a focus on Web Development and UX-UI.
+          <p className='text-xl dark:text-gray-400'>
+            +1 year of experience working and programming solutions with React and Next Js.
+            My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer.
           </p>
         </div>
     </motion.div>

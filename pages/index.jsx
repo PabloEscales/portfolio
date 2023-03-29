@@ -22,6 +22,17 @@ import { SocialIcon } from 'react-social-icons';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+  const PDF_RESUME = 'https://media.licdn.com/dms/document/C562DAQFUli1JWp3BtA/profile-treasury-document-pdf-analyzed/0/1680094082691?e=1680739200&v=beta&t=9udY5UWSEo7OJwizFZwOf4BLkYcFJXfMMGmMviJJcqQ'
+
+  const downloadResume = (url) => {
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement('a');
+    aTag.href = url;
+    aTag.setAttribute('download', fileName);
+    aTag.click();
+    aTag.remove();
+  }
+
   return (
     <div className={ darkMode ?  "h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-200 scrollbar-thumb-[#F7AB0A]/80" : "dark text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80" }>
       <Head>
@@ -76,7 +87,14 @@ export default function Home() {
                 <ul className='flex items-center'>
                   <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-400'/></li>
                   <li>
-                    <a className='bg-yellow-500/80 text-black px-4 py-2 rounded-md ml-8 dark:text-gray-800' href='#'>
+                    <a className='bg-yellow-500/80 text-black px-4 flex py-2 rounded-md ml-8 dark:text-gray-800' href='./public/ResumePabloEscalesFrontendWebDeveloper.pdf' download='Resume Pablo Escales Frontend Web Developer' onClick={() => {downloadResume(PDF_RESUME)}}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 text-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 13.5l3 3m0 0l3-3m-3 3v-6m1.06-4.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                  </svg>Resume
+                    </a>
+                  </li>
+                  <li>
+                    <a className='bg-yellow-500/80 text-black px-4 flex py-2 rounded-md ml-8 dark:text-gray-800' href='#'>
                       ✉️
                     </a>
                   </li>
@@ -84,25 +102,26 @@ export default function Home() {
               </motion.div>
             </Link>
           </nav>
+
         <section id="hero" className='snap-start dark:text-gray-400'>
           <Hero />
+        </section>
+
+        {/* <section id='projects' className='snap-start dark:text-gray-400'>
+          <Projects />
+        </section> */}
+
+        <section id='experience' className='snap-center dark:text-gray-400'>
+          <WorkExperience />
         </section>
 
         <section id='about' className='snap-center dark:text-gray-400'>
           <About />
         </section>
 
-        <section id='experience' className='snap-center dark:text-gray-400'>
-          <WorkExperience />
-        </section>
-
         <section id='skills' className='snap-start dark:text-gray-400'>
           <Skills />
         </section>
-
-        {/* <section id='projects' className='snap-start dark:text-gray-400'>
-          <Projects />
-        </section> */}
 
         <section id='contact' className='snap-start dark:text-gray-400'>
           <ContactMe />

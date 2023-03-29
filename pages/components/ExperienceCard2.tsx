@@ -5,7 +5,7 @@ type Props = {};
 
 export default function ExperienceCard2({}: Props) {
   return (
-    <article className='mr-4 flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='mr-4 flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden text-gray-300'>
       <motion.img
         initial={{
           y: -100,
@@ -55,16 +55,16 @@ export default function ExperienceCard2({}: Props) {
             alt=''
           />
         </div>
-        <p className='py-5 text-gray-400 dark:text-gray-400'>
-          Start date: March '22
+        <p className='py-5 text-gray-400 dark:text-gray-300'>
+          Date: March '22
         </p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
+        <ul className='list-disc space-y-4 ml-5 text-lg dark:text-gray-300'>
           <li>
-          In a small team of 4 colleagues, we've developed an Airbnb clone from scratch. Using Ruby on Rails and JavaScript as main languages, relational database with PostgreSQL. We use Kanban methodology in Trello, API Mapbox for the geolocation, and Figma for the prototype.
+           Airbnb clone from scratch. Using MVC model with Ruby on Rails and JavaScript as main languages, PostgreSQL as a database, Figma for the prototype, RSpec for Testing, and Kanban methodology in Trello.
           </li>
           <li>
-            Other Techs Stack: Git · RSpec Testing · AJAX · Sass · Bootstrap
+            Other Techs Stack: Git & GitHub · AJAX · Sass · Bootstrap · Mapbox · Slack
           </li>
         </ul>
       </div>
