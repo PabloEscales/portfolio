@@ -27,7 +27,7 @@ function ContactMe({}: Props) {
       <div className='flex flex-col space-y-6 md:mb-32'>
         <h4 className='text-4xl font-semibold text-center mt-28 mb-2 dark:text-gray-300'>
           Keep in touch and{' '}
-          <span className='decoration-[#F7AB0A]/50 underline'>let's talk.</span>
+          <span className='decoration-[#F7AB0A]/80 underline'>let's talk.</span>
         </h4>
 
         <div className='flex item-center space-x-5 justify-center'>
@@ -79,7 +79,7 @@ function ContactMe({}: Props) {
 
           <button
             type='submit'
-            className='bg-orange-500 py-5 px-10 rounded-md text-black font-bold text-lg'
+            className='bg-orange-400 py-5 px-10 rounded-md text-black font-bold text-lg'
           >
             Send
           </button>

@@ -33,7 +33,12 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-xl dark:text-gray-400'>
-            Working and programming solutions in React and Next Js. My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer.
+            Working and programming in React and Next Js.
+            My recent background allows me to understand the point of view from the creation of a project to its execution.
+
+            My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer.
+
+            +10 years of experience in Real Estate Legal Management.
           </p>
         </div>
     </motion.div>
