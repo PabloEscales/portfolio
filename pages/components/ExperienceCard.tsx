@@ -65,12 +65,18 @@ export default function ExperienceCard({}: Props) {
 
         <ul className='list-disc space-y-4 ml-5 text-lg dark:text-gray-300'>
           <li>
-            New project from scratch, designing with Figma, programming with React - Next Js, and testing the interface.
-            We used Azure DevOps as a server and project management.
+            Programming in React and Next Js, using Azure DevOps as a server and project management.
           </li>
           <li>
-            Other Techs Stack: Tailwindcss · Slack
+            Creating React Hooks component with Tailwind CSS as a main CSS framework.
           </li>
+          <li>
+            Testing and solving issues with communication and team discussion.
+          </li>
+          <li>
+            Designing a new interface in Figma from scratch, improving the UX-UI with brainstorm methodology.
+          </li>
+            Other Techs Stack: Tailwindcss · Slack
         </ul>
       </div>
     </article>

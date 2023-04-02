@@ -22,7 +22,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const PDF_RESUME = 'https://media.licdn.com/dms/document/C562DAQFUli1JWp3BtA/profile-treasury-document-pdf-analyzed/0/1680094082691?e=1680739200&v=beta&t=9udY5UWSEo7OJwizFZwOf4BLkYcFJXfMMGmMviJJcqQ'
+  const PDF_RESUME = 'https://media.licdn.com/dms/document/D4E2DAQEE23lKqtO4XA/profile-treasury-document-pdf-analyzed/0/1680452426137?e=1681344000&v=beta&t=sY285_0Zwx298bNJ0F3vlqQXUW4fMXgFBvRyJXvWXjI'
 
   const downloadResume = (url) => {
     const fileName = url.split('/').pop();

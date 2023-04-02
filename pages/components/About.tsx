@@ -34,7 +34,7 @@ export default function About({}: Props) {
           </h4>
           <p className='text-xl dark:text-gray-400'>
             Working and programming in React and JavaScript, driven to always adding value for the user.
-            My recent background allows me to understand the point of view from the creation of a project to its execution. 💻
+            My recent experience allows me to understand the point of view from the creation of a project to its execution. 💻
             <br/><br/>
             My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer. 🎓
             <br/><br/>
