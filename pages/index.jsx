@@ -22,7 +22,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const PDF_RESUME = 'https://media.licdn.com/dms/document/D4E2DAQGq_OtXvGxJMw/profile-treasury-document-pdf-analyzed/0/1680468010224?e=1681344000&v=beta&t=AT7F3_lSwQgdQYIC3cx244_us69zkhpMg-7T4lh0CGc'
+  const PDF_RESUME = 'https://media.licdn.com/dms/document/D4E2DAQHg2-xakmC9Ew/profile-treasury-document-pdf-analyzed/0/1682693411298?e=1683763200&v=beta&t=KCHdw6PCx9ZMATZL9gF5VUFentgdqVxRdysm1O2SoVE'
 
   const downloadResume = (url) => {
     const fileName = url.split('/').pop();
@@ -110,16 +110,16 @@ export default function Home() {
           <Hero />
         </section>
 
-        {/* <section id='projects' className='snap-start dark:text-gray-400'>
-          <Projects />
-        </section> */}
+        <section id='about' className='snap-center dark:text-gray-400'>
+          <About />
+        </section>
 
         <section id='experience' className='snap-center dark:text-gray-400'>
           <WorkExperience />
         </section>
 
-        <section id='about' className='snap-center dark:text-gray-400'>
-          <About />
+        <section id='projects' className='snap-start dark:text-gray-400'>
+          <Projects />
         </section>
 
         <section id='skills' className='snap-start dark:text-gray-400'>
