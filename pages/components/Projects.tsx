@@ -5,7 +5,22 @@ import { SocialIcon } from 'react-social-icons';
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3];
+  const projects = [
+    {
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/112px-Microsoft_icon.svg.png',
+      webLink: 'https://microsoft-quiz.vercel.app/',
+      name: 'Microsoft Quiz PL-900 Certificate',
+      description: 'Develop with React, TypeScript & Zustand',
+      repositoryLink: 'https://github.com/PabloEscales/microsoft-quiz'
+    },
+    {
+      logo: 'https://www.seekpng.com/png/full/318-3187696_box-of-popcorn-vector-pop-corn-logo-png.png',
+      webLink: 'https://best-movies-search.vercel.app/',
+      name: 'Best Movies 🍿',
+      description: 'Develop with React, using API from omdbapi.com 🎬',
+      repositoryLink: 'https://github.com/PabloEscales/best-movies-search'
+    }
+  ];
   return (
     <motion.div
     initial={{ opacity: 0 }}
@@ -27,8 +42,8 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/112px-Microsoft_icon.svg.png'
-              alt='Microsoft logo'
+              src={project.logo}
+              alt={project.name}
             />
 
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -36,13 +51,13 @@ function Projects({}: Props) {
                 <span className='underline decoration-[#F7AB0A]/50'>
                 {i + 1} of {projects.length}:
                 </span>{' '}
-                <a href='https://microsoft-quiz.vercel.app/' target='_blank' rel='noreferrer'>Microsoft Quiz PL-900 Certificate</a>
+                <a href={project.webLink} target='_blank' rel='noreferrer'>{project.name}</a>
               </h4>
 
               <p className='text-lg text-center md:text-left'>
-                Develop with React, TypeScript & Zustand. <br/><br/>
+                {project.description} <br/><br/>
                 <SocialIcon
-                  url="https://github.com/PabloEscales/microsoft-quiz"
+                  url={project.repositoryLink}
                   fgColor='gray'
                   bgColor='transparent'
                   target="_blank"
