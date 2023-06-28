@@ -65,18 +65,17 @@ export default function ExperienceCard({}: Props) {
 
         <ul className='list-disc space-y-4 ml-5 text-lg dark:text-gray-300'>
           <li>
-            Programming in React and JavaScript, using Azure DevOps as a project management with Scrum methodology.
-          </li>
-          <li>
-            Creating React Hooks Component with Tailwind CSS as a main CSS framework.
-          </li>
-          <li>
-            Testing and solving issues with the marketing team using brainstorm methodology, and reporting to the CTO.
-          </li>
-          <li>
             Designing a new interface in Figma from scratch, creating prototypes for the best UX-UI.
           </li>
-            Other Techs Stack: Tailwindcss · Slack
+          <li>
+            Programming in React and JavaScript, creating React Hooks Component with Tailwind CSS.
+          </li>
+          <li>
+            Testing and working with the marketing team using brainstorm methodology.
+          </li>
+          <li>
+            Other Techs Stack: Azure DevOps · Slack
+          </li>
         </ul>
       </div>
     </article>
