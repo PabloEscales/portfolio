@@ -25,7 +25,7 @@ function Projects({}: Props) {
     {
       logo: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
       webLink: 'https://google-search-cloned.netlify.app',
-      name: 'Clone of Google Search  🔍',
+      name: 'Clone of Google Search',
       description: 'Develop with HTML & CSS using google.com',
       repositoryLink: 'https://github.com/PabloEscales/Harvard-CS50-Web'
     },
@@ -39,7 +39,7 @@ function Projects({}: Props) {
     {
       webLink: 'https://github.com/PabloEscales/VansRent',
       logo: 'https://images.vexels.com/media/users/3/147714/isolated/preview/170dd97407c2f0c4400ded807aed5af1-icone-plano-de-veiculo-de-campervan.png',
-      name: 'Vans Rent 🚐',
+      name: 'Vans Rent',
       description: 'Develop with Ruby on Rails, JavaScript and Bootstrap',
       repositoryLink: 'https://github.com/PabloEscales/VansRent'
     }
