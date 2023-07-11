@@ -2,11 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
-import Image from 'next/image';
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
 // import web1  from '../public/web1.png';
 import { useState } from 'react';
 import { motion } from "framer-motion";
@@ -14,7 +9,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+import Projects2 from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Link from 'next/link';
 import { SocialIcon } from 'react-social-icons';
@@ -22,7 +17,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const PDF_RESUME = 'https://media.licdn.com/dms/document/media/D4E2DAQGQQ4m7GsGavw/profile-treasury-document-pdf-analyzed/0/1687688409663?e=1688601600&v=beta&t=IsVQEoNHQ6__QOUWJ5fpEkPaw5RJ3Mr8gZEnMgawv9I'
+  // const PDF_RESUME = 'https://media.licdn.com/dms/document/media/D4E2DAQGQQ4m7GsGavw/profile-treasury-document-pdf-analyzed/0/1687688409663?e=1688601600&v=beta&t=IsVQEoNHQ6__QOUWJ5fpEkPaw5RJ3Mr8gZEnMgawv9I'
 
   const downloadResume = (url) => {
     const fileName = url.split('/').pop();
@@ -119,7 +114,7 @@ export default function Home() {
         </section>
 
         <section id='projects' className='snap-start dark:text-gray-400'>
-          <Projects />
+          <Projects2 />
         </section>
 
         <section id='skills' className='snap-start dark:text-gray-400'>

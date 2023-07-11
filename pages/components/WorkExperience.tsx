@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
-import ExperienceCard2 from './ExperienceCard2';
+// import ExperienceCard2 from './ExperienceCard2';
 
 type Props = {}
 
@@ -15,9 +15,9 @@ function WorkExperience({}: Props) {
         Experience
       </h3>
 
-      <div className='w-full flex space-x-5 justify-center p-10 snap-x snap-mandatory mt-24'>
+      <div className='w-full h-[700px] flex space-x-5 justify-center p-10 snap-x snap-mandatory mt-24'>
         <ExperienceCard />
-        <ExperienceCard2 />
+        {/* <ExperienceCard2 /> */}
       </div>
     </motion.div>
   );

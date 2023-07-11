@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import BackgroundCircles from '../components/BackgroundCircles';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 type Props = {}
 
@@ -11,11 +11,11 @@ export default function Hero({}: Props) {
     const [text, count] = useTypewriter ({
       words: [
         `Hi, I'm Pablo Escales`,
-        `creativy-driven-developer.tsx`,
-        `< who-enjoy-the way of new coding />`
+        `creativy-driven-developer.jsx`,
+        `<Who enjoy the way of new coding />`
       ],
       loop: true,
-      delaySpeed: 2000,
+      delaySpeed: 2500,
     });
 
   return (
@@ -27,7 +27,7 @@ export default function Hero({}: Props) {
         alt=''
       />
       <div className='z-20'>
-        <h2 className='mt-9 text-sm uppercase text--gray-500 pb-2 tracking-[11px] dark:text-gray-400'>
+        <h2 className='mt-6 text-sm uppercase text--gray-500 pb-2 tracking-[11px] dark:text-gray-400'>
           Frontend Web Developer
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>

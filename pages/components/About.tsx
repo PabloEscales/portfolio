@@ -33,10 +33,18 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-xl dark:text-gray-400'>
+            Working and programming in React, Next JS and TypeScript. ⚛️
+          </p>
+          <p className='text-xl dark:text-gray-400'>
             My recent experience allows me to understand the point of view from the creation of a project to its execution. 💻
-            <br/><br/>
+          </p>
+          <p className='text-xl dark:text-gray-400'>
             My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer. 🎓
           </p>
+          <p className='text-xl dark:text-gray-400'>
+          Very happy about this change, I keep learning new technologies in each project. 🚀
+          </p>
+
         </div>
     </motion.div>
   );
