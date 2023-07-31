@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { SocialIcon } from 'react-social-icons';
 
 type Props = {};
@@ -46,10 +46,10 @@ function Projects({}: Props) {
   ];
 
   return (
-    <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    transition={{ duration: 1.5 }}
+    <div
+    // initial={{ opacity: 0 }}
+    // whileInView={{ opacity: 1 }}
+    // transition={{ duration: 1.5 }}
     className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
       <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl dark:text-gray-300'>
         Projects
@@ -98,7 +98,7 @@ function Projects({}: Props) {
       </div>
 
       <div className='w-full absolute top-[30%] bg-[#F7AB0A]/80 dark:bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12' />
-    </motion.div>
+    </div>
   );
 }
 

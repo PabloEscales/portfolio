@@ -17,6 +17,7 @@ export default function ExperienceCard2({}: Props) {
           <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             <ul className="list-disc space-y-4 ml-5 text-lg dark:text-gray-300">
               <li>Programming in React, Next JS and JavaScript.</li>
+              <li>Consuming RESTful API.</li>
               <li>C# and .NET as a Backend server.</li>
               <li>Azure DevOps as a project management with Scrum methodology.</li>
               <li>Tailwind CSS as a main CSS framework.</li>
