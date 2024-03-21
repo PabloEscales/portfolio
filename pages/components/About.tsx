@@ -33,18 +33,18 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-xl dark:text-gray-400'>
-            Working and programming in React, Next JS and TypeScript. ⚛️
+            +2 years of expertise as a Developer.
           </p>
           <p className='text-xl dark:text-gray-400'>
-            My recent experience allows me to understand the point of view from the creation of a project to its execution. 💻
+            I’ve focused my career on AWS and Azure clouds, specializing in Infrastructure as Code using Terraform. 💻
           </p>
           <p className='text-xl dark:text-gray-400'>
-            My passion for technology and creative solutions inspired me to change my career path and transition from Lawyer to Web Developer. 🎓
+            In my latest role, I been using tools such as Docker, Kubernetes and Helm for efficient deployments.
           </p>
           <p className='text-xl dark:text-gray-400'>
-          Very happy about this change, I keep learning new technologies in each project. 🚀
+            My commitment to continuous learning drives me to always be willing to take on new innovative challenges.
+            That’s why I'm currently studying Python and GenAI.
           </p>
-
         </div>
     </motion.div>
   );

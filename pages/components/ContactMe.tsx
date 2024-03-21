@@ -32,7 +32,7 @@ function ContactMe({}: Props) {
 
         <div className='flex item-center space-x-5 justify-center'>
           <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-          <p className='text-2xl'>+34 613355849</p>
+          <p className='text-2xl'>+34613355849</p>
         </div>
 
         <div className='flex item-center space-x-5 justify-center'>
@@ -40,12 +40,7 @@ function ContactMe({}: Props) {
           <p className='text-2xl'>pabloescales@gmail.com</p>
         </div>
 
-        <div className='flex item-center space-x-5 justify-center'>
-          <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-          <p className='text-2xl mb-2'>Barcelona - Spain</p>
-        </div>
-
-        <form
+       <form
           onSubmit={handleSubmit(onSubmit)}
           className='flex flex-col space-y-2 w-fit mx-auto'
         >
