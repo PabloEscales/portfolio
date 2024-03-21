@@ -26,7 +26,7 @@ export default function Hero({}: Props) {
         alt=''
       />
       <div className='z-20'>
-        <h2 className='mt-6 text-sm uppercase text--gray-500 pb-2 tracking-[11px] dark:text-gray-400'>
+        <h2 className='ml-5 mt-6 text-sm uppercase text--gray-500 pb-2 tracking-[11px] dark:text-gray-400'>
             Cloud DevOps
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
