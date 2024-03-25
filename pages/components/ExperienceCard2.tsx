@@ -15,7 +15,7 @@ export default function ExperienceCard2({}: Props) {
       // whileInView={{ opacity: 1, y: 0 }}
       // viewport={{ once: true }}
       className="w-32 h-32 xl:w-[140px] rounded object-cover object-center"
-      src="https://media.licdn.com/dms/image/C4D0BAQFiyyEUZjtqTg/company-logo_200_200/0/1630489561779/gft_group_logo?e=1718841600&v=beta&t=fOOvKAfjFTH3bkv8eWVitiAJx43dWwjKRteleMzsqwk"
+      src="https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/291931735_543567233939674_4522567431031632330_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WRMfC4zcr8EAX_t5Rn_&_nc_ht=scontent-mad2-1.xx&oh=00_AfAJnSyae0IOe7bbTOMkY3rRHcp28D2OGcUwYJXjdNMzfA&oe=66060E5E"
       alt="GFT logo"
     />
     <div className="px-0 md:px-10 ml-12">
