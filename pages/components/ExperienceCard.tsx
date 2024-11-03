@@ -15,7 +15,7 @@ export default function ExperienceCard({}: Props) {
         // transition={{ duration: 1.2 }}
         // whileInView={{ opacity: 1, y: 0 }}
         // viewport={{ once: true }}
-        className="w-32 h-32 xl:w-[280px] rounded object-cover object-center"
+        className="w-32 h-32 xl:w-[280px] rounded object-cover object-center mb-2 mt-2"
         src="https://lejka.dk/media/x4bolqg5/lejka-logo.svg"
         alt="Lejka logo"
       />

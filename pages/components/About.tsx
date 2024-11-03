@@ -33,17 +33,16 @@ export default function About({}: Props) {
             background
           </h4>
           <p className='text-xl dark:text-gray-400'>
-            +2 years of expertise as a Developer.
+            +3 years of expertise as a Developer.
           </p>
           <p className='text-xl dark:text-gray-400'>
-            I’ve focused my career on AWS and Azure clouds, specializing in Infrastructure as Code using Terraform. 💻
+            I’ve focused my career on cloud technology, having worked with the main providers (GCP, AWS, and Azure). 💻
           </p>
           <p className='text-xl dark:text-gray-400'>
-            In my latest role, I been using tools such as Docker, Kubernetes and Helm for efficient deployments.
+            In my latest experience, I’ve been working with GCP, Kubernetes, Terraform, and GitHub Actions as my main tech stack.
           </p>
           <p className='text-xl dark:text-gray-400'>
-            My commitment to continuous learning drives me to always be willing to take on new innovative challenges.
-            That’s why I'm currently studying Python and GenAI.
+            My commitment to continuous learning drives me to stay open to new technologies and always be willing to take on innovative challenges.
           </p>
         </div>
     </motion.div>
