@@ -24,7 +24,7 @@ export default function ExperienceCard2({}: Props) {
         📍 GFT Technologies - Barcelona, Spain
       </h4>
       <p className="pb-5 pt-2 dark:text-gray-300">
-        <span className='underline decoration-[#F7AB0A]/50'>📅</span> Oct '23 - Present
+        <span className='underline decoration-[#F7AB0A]/50'>📅</span> Sep '23 - Present
       </p>
       <ul className="list-disc space-y-2 ml-5 text-lg dark:text-gray-300">
         <li>Utilizing Terraform as IaC to architect and deploy cloud environments
