@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: pabloe912/my-portfolio:v1
+          image: pabloe912/my-portfolio:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000

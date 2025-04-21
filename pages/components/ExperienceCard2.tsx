@@ -27,15 +27,13 @@ export default function ExperienceCard2({}: Props) {
         <span className='underline decoration-[#F7AB0A]/50'>📅</span> Sep '23 - Present
       </p>
       <ul className="list-disc space-y-2 ml-5 text-lg dark:text-gray-300">
-        <li>Utilizing Terraform as IaC to architect and deploy cloud environments
-          on main providers such as GCP, AWS and Azure.
+        <li>I design efficient cloud solutions, ensuring a smooth cloud migration journey for on-premises applications.
         </li>
-        <li>CI/CD processes through GitHub Actions and Jenkins pipelines.</li>
-        <li>Utilizing Docker and Kubernetes as main orchestration and containers
-          technologies.
+        <li>I develop and maintain CI/CD pipelines using GitHub Actions / Jenkins workflows.</li>
+        <li>I deploy and manage applications hosted on Kubernetes clusters with Helm, ensuring a seamless and efficient process.
         </li>
-        <li>Maven and Helm as core packages and deployment technologies.</li>
-        <li>Other Techs Stack: GitLab · Istio · MongoDB </li>
+        <li>Additionally, I ensure compliance with SDLC controls and perform troubleshooting and monitoring of the networking of applications.</li>
+        <li>I also provide support to development teams, collaborating closely with them to offer technical guidance and optimize their applications for better performance.</li>
       </ul>
     </div>
   </article>

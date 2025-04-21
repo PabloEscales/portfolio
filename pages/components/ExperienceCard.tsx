@@ -20,7 +20,7 @@ export default function ExperienceCard({}: Props) {
         alt="Lejka logo"
       />
       <div className="px-0 md:px-10 ml-12">
-        <h4 className="pb-2 text-xl font-ligth bg-blue">Frontend Web Developer</h4>
+        <h4 className="pb-2 text-xl font-ligth bg-blue">Software Developer</h4>
         <h4 className="text-l font-ligth bg-blue">
           📍 LEJKA - Copenhagen, Denmark
         </h4>
@@ -28,13 +28,11 @@ export default function ExperienceCard({}: Props) {
           <span className='underline decoration-[#F7AB0A]/50'>📅</span> Jul '22 - Jul '23
         </p>
         <ul className="list-disc space-y-2 ml-5 text-lg dark:text-gray-300">
-          <li>Programming in React, Next JS and JavaScript.</li>
-          <li>C# and .NET as a Backend server.</li>
-          <li>Azure DevOps as a project management with Scrum methodology.</li>
-          <li>Tailwind CSS as a main CSS framework.</li>
-          <li>Testing and documentation of the project, reporting to the CTO.</li>
-          <li>Figma to create prototypes, to impruve the UX-UI.</li>
-          <li>Other Techs Stack: GitHub · Slack · Canvas </li>
+          <li>Developed dynamic and responsive applications using JavaScript libraries and TypeScript.</li>
+          <li>Managed and consumed APIs from backend services using C# and .NET, with AKS integration (Azure - Kubernetes Service).</li>
+          <li>Managed CI/CD pipelines and project workflows using Azure DevOps, following the Scrum methodology.</li>
+          <li>Created and tested scripts using Bash to automate tasks and improve CI/CD pipelines.</li>
+          <li>Conducted rigorous testing and documentation, providing regular reports to the CTO.</li>
         </ul>
       </div>
     </article>
