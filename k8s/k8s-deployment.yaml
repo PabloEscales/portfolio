@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: mi-portfolio-next
+          image: portfolio:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000

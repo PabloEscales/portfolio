@@ -49,3 +49,26 @@ terraform.tfvars
 *.tar
 *.zip
 argocd
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+
+# Ignorar todo lo relacionado con Terraform local
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+.terraform.lock.hcl
+
+# Por si acaso, ignorar cualquier binario grande accidental
+*.x5
+*.exe
+*.tar
+*.zip
+argocd
